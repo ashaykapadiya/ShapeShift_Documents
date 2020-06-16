@@ -28,6 +28,6 @@ If your device supports Dash Charging, add this to your overlays overlay/framewo
 
 If your device supports Lineage Touch HALs, we request you to add them on. You can check LineageOS trees for your device to get started.
 
-All our builds come with Lawnchair prebuilt. However, if you do not want Lawnchair, simply add this line in your device tree's makefile and there will be no prebuilt launcher and you can add your own one.
+All our builds come with Lawnchair prebuilt. However, if you do not want Lawnchair, simply add this line in your device tree's makefile and OnePlus Launcher with Google feed will be used instead.
 
 >>         export LAWNCHAIR_OPTOUT := true
