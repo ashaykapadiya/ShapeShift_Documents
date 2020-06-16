@@ -1,4 +1,4 @@
-Title: [ROM][10.0.0_r36][UNOFFICIAL][STABLE] ShapeShiftOS [DEVICE_CODENAME]
+Title: [ROM][10.0.0_r39][UNOFFICIAL][STABLE] ShapeShiftOS [DEVICE_CODENAME]
 
 -----------------------------------------------------------------------------
 
