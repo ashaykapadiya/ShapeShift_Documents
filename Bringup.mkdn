@@ -34,9 +34,9 @@ All our builds come with Lawnchair prebuilt. However, if you do not want Lawncha
 
 To see battery health in battery section, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
 
->>                              <!-- Battery Health -->
->>                                <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
->>                                <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
->>                                <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
+>>          <!-- Battery Health -->
+>>          <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+>>          <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
+>>           <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
 
 
