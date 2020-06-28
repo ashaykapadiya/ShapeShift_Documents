@@ -31,3 +31,12 @@ If your device supports Lineage Touch HALs, we request you to add them on. You c
 All our builds come with Lawnchair prebuilt. However, if you do not want Lawnchair, simply add this line in your device tree's makefile and OnePlus Launcher with Google feed will be used instead.
 
 >>         export LAWNCHAIR_OPTOUT := true
+
+To see battery health in battery section, add this to your overlays overlay/frameworks/base/core/res/res/values/config.xml:
+
+>>    <!-- Battery Health -->
+>>    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
+>>    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
+>>    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
+
+
