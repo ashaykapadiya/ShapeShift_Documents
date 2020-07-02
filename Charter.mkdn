@@ -25,7 +25,7 @@ Before you apply to add your device into our list of official devices, you shoul
 
 1 - You must own the device. Blind and untested builds aren't allowed. Devices that have minimal hardware difference from yours are allowed to be maintained, as long as you maintain your own device too.
 
-2 - You must have a good knowledge of git.
+2 - The maintainer must know how to use Git correctly. This includes but is not limited to amending commits, rebasing commits, cloning repos, pushing commits/repos, merging and pulling commits accordingly.
 
 3 - You must create and maintain an unofficial build for at least 1 week, make sure that the build is stable for daily usage before applying. The context of stability may differ for different devices, so explain regarding any exceptions.
 
@@ -34,6 +34,8 @@ Before you apply to add your device into our list of official devices, you shoul
 5 - You must show the **real** device sources being used.
 
 6 - Your device must be in accordance with the Device Requirements below. 
+
+7 - The maintainer must write clear and descriptive commit messages with both normal commits and reverts, documenting exactly what they are changing and why.
 
 # Device Requirements
 
@@ -49,13 +51,12 @@ Before you apply to add your device into our list of official devices, you shoul
 
 - The device mustn't have the need for a lot of patches, and if so, it must be in accordance with the following listing below.
 
+- The device's kernel must be up to date with the latest patches from [kernel.org](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/). If you are unsure of how to do this, check out [android-linux-stable](https://github.com/android-linux-stable) or contact [Nathan Chancellor](https://nathanchance.me).
+
 - If there are commits that are needed in repos other than the device-specific ones, they must:
 
   - Be necessary for the device to build, boot, or even to have a device function working properly (e.g. Fingerprint On Display).
 
   - Have proper authorship.
   
-   - Be as minimal and polished as possible.
-   
- 
->> If you do not align with any one of the lines in the Charter above, we are willing to make exceptions if you provide a valid reason to us.
+  - Be as minimal and polished as possible.
