@@ -3,30 +3,114 @@ ________________________________________________________________________________
 
 Source Changelog: 
 
-- Rewrite Network Traffic Indicator implementation
-- Rewrite Lawnchair Implementation
-- Rewrite QS Columns and Rows Implementation
-- Fix Lockscreen Display causing a crash
-- Add support for dash charging and warp charging (For maintainers: See bringup help)
-- Remove restrictions for system audio recording in screen recording
-- Update OOS ScreenRecorder to now support internal audio recording
-- Add improved video codecs and switch to use low resolution in AOSP ScreenRecorder
-- Add VoLTE icon picker
-- Improve VoLTE icon padding
-- Add ShapeShift Papers app
-- Address some CTS issues
-- Add show 4G icon instead of LTE
-- Upstream source from Pixel Experience
-
- 
-Device Changelog:
-
+- Rewrite and fix Dash charging
+- Add FODAnimation Picker with 22 animations to pick from
+- Add 4 new VoLTE icons
+- Allow hiding expanded and ringer under volume panel separately
+- Add config to move volume panel to left
+- Make MIUI Volume slider expanded (Work In Progress)
+- Option to to allow tethering to use VPN upstreams 
+- Add build variable to optionally build OPLauncher
+- Update DataSwitch tile icons from AOSPA
+- Improve accent colours
+- Add Cocon font
+- Properly fix Android Auto
+- Add new icon shapes from Android R
+- Add Coral and Ferrari Red accents
+- Block all apps from seeing location spoofing (For Pokemon Go)
+- Option to force expanded volume panel
+- Remove weather under typeclock
+- Remove manage button under notifications
+- Add option to center R style notification headers
+- Fix VoLTE icon padding
+- Add support for Substratum theme gradients in QS
+- Option for double tap to trigger doze
+- Less boring heads up option
+- Configurable fingerprint detection in pocket mode
+- Statusbar and QS header clock and date customization
+- Option to force expanded notifications
+- New custom clocks: Spectrum, Spidey, Analog with numbers, Center type, LineageOS
+- Settings dashboard icon customization
+- QS blur radius and intensity adjustment
+- Add sound QS tile
+- Show current and new version on APK installation
+- Material icon for OOS Clear all notifications
+- SystemUI restart button in power menu
+- Option to enable and configure intensity of blur behind power menu
+- Live volume steps
+- Misc FOD improvements
+- Bluetooth and Mobile Data panels
+- Battery Health
+- Make notification log search indexable
+- DotOS Style BatteryMeter
+- Tons of theming improvements in Settings
+- Show more information in About Phone
+- Add option to disable/enable SIMs
+- Make ThemePicker a standalone app with improved layout and primary colour support
+- Show overlay name in ThemePicker
+- Improve TouchGestures UI and layout
+- More misc changes and improvements
+- Pixel Experience upstream
 
 _____________________________________________________________________________________________________________________________
 
 <Please don't copy older changelogs. They are for reference.>
 
 Older Changelogs:
+
+----------------------------------------------------------------------------------------------------------------------
+
+July 5th:
+Version 1.1-Gyarados
+
+- Rewrite and fix Dash charging
+- Add FODAnimation Picker with 22 animations to pick from
+- Add 4 new VoLTE icons
+- Allow hiding expanded and ringer under volume panel separately
+- Add config to move volume panel to left
+- Make MIUI Volume slider expanded (Work In Progress)
+- Option to to allow tethering to use VPN upstreams 
+- Add build variable to optionally build OPLauncher
+- Update DataSwitch tile icons from AOSPA
+- Improve accent colours
+- Add Cocon font
+- Properly fix Android Auto
+- Add new icon shapes from Android R
+- Add Coral and Ferrari Red accents
+- Block all apps from seeing location spoofing (For Pokemon Go)
+- Option to force expanded volume panel
+- Remove weather under typeclock
+- Remove manage button under notifications
+- Add option to center R style notification headers
+- Fix VoLTE icon padding
+- Add support for Substratum theme gradients in QS
+- Option for double tap to trigger doze
+- Less boring heads up option
+- Configurable fingerprint detection in pocket mode
+- Statusbar and QS header clock and date customization
+- Option to force expanded notifications
+- New custom clocks: Spectrum, Spidey, Analog with numbers, Center type, LineageOS
+- Settings dashboard icon customization
+- QS blur radius and intensity adjustment
+- Add sound QS tile
+- Show current and new version on APK installation
+- Material icon for OOS Clear all notifications
+- SystemUI restart button in power menu
+- Option to enable and configure intensity of blur behind power menu
+- Live volume steps
+- Misc FOD improvements
+- Bluetooth and Mobile Data panels
+- Battery Health
+- Make notification log search indexable
+- DotOS Style BatteryMeter
+- Tons of theming improvements in Settings
+- Show more information in About Phone
+- Add option to disable/enable SIMs
+- Make ThemePicker a standalone app with improved layout and primary colour support
+- Show overlay name in ThemePicker
+- Improve TouchGestures UI and layout
+- More misc changes and improvements
+- Pixel Experience upstream
 
 ----------------------------------------------------------------------------------------------------------------------
 
