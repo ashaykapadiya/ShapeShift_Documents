@@ -31,11 +31,4 @@ To see battery health in battery section, add this to your overlays overlay/pack
 >>          <!-- Battery Health -->
 >>          <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
 >>          <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
->>           <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
-
-Then, in sepolicy/vendor/system_app.te
-
->>       allow system_app sysfs_battery_supply:dir { search };
->>       allow system_app sysfs_battery_supply:file { read };
->>       allow system_app sysfs_battery_supply:file { open };
->>       allow system_app sysfs_battery_supply:file { getattr };
+>>          <string name="config_batCurCap">/sys/class/power_supply/bms/charge_now_raw</string>
